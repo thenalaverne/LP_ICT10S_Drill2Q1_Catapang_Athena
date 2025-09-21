@@ -18,6 +18,8 @@ def show_info(event):
     This information was gathered through input fields and displayed 
     using a multiline string in Python via PyScript.
     """
-
+    display(message, target="output")
+    
     document.getElementById("output").innerText = message
+
 
