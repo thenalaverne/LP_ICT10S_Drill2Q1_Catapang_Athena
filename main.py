@@ -19,6 +19,5 @@ def show_info(event):
     using a multiline string in Python via PyScript.
     """
 
-    # Display the result
-
     document.getElementById("output").innerText = message
+
