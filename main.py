@@ -1,18 +1,16 @@
 from pyscript import document
 
 def show_info(event):
-    # Get input values
+
     name = document.getElementById("name").value
     age = document.getElementById("age").value
     student_id = document.getElementById("student_id").value
     school = document.getElementById("school").value
 
-    # Build multiline string
     message = f"""
     📘 Student Profile
     Name   : {name}
     Age    : {age}
-    ID     : {student_id}
     School : {school}
 
     📝 Notes:
@@ -22,4 +20,5 @@ def show_info(event):
     """
 
     # Display the result
+
     document.getElementById("output").innerText = message
